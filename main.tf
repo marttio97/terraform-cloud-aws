@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "my-example-website-bucket"
+  bucket = "my-new-website-bucket"
 
   tags = {
     Name        = "My Website Bucket"
